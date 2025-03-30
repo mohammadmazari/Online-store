@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fn" className={danaFont.className}>
+    <html lang="fn" dir="rtl" className={danaFont.className}>
       <body>
         <Layout>{children}</Layout>
       </body>

@@ -1,7 +1,12 @@
-import React from "react";
+import TopBar from "@components/layout/header/TopBar";
+
 
 function Header() {
-  return <div>Header</div>;
+  return (
+    <div>
+      <TopBar />
+    </div>
+  );
 }
 
 export default Header;
