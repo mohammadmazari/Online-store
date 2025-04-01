@@ -5,7 +5,7 @@ function SearchInpute() {
     <div className="flex-grow relative">
       <input
         type="text"
-        className="bg-gray-200 rounded-sm text-xs h-9 w-full md:w-[70%]  md:text-sm focus:outline-none px-10 md:h-12"
+        className="bg-gray-200 rounded-sm text-xs h-9 w-full md:w-[70%] text-700 text-gray-800 md:text-sm focus:outline-none px-10 md:h-12"
         placeholder="جستجو در محصولات"
       />
       <CiSearch

@@ -4,7 +4,7 @@ import ShopingCart from "./ShopingCart";
 import LogingAuth from "./Auth";
 function DesktopPage() {
   return (
-    <div className="hidden md:flex gap-4 mt-4 items-center ">
+    <div className=" hidden md:flex gap-4 mt-4 items-center ">
       <Brand />
       <SearchInpute />
       <LogingAuth />
