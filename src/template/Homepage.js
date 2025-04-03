@@ -1,10 +1,11 @@
 import CategoryList from "@components/homepage/CategoryList";
-import React from "react";
+import ProductsSlider from "@components/homepage/ProductsSlider";
 
 function Homepage() {
   return (
     <div>
       <CategoryList />
+      <ProductsSlider />
     </div>
   );
 }

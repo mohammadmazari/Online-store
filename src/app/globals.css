@@ -123,7 +123,12 @@
   .base_color_sete {
     @apply text-gray-500;
   }
+
+  .container {
+    @apply max-w-screen-xl mx-auto px-3;
+  }
 }
+
 button {
   cursor: pointer;
 }
