@@ -1,3 +1,4 @@
+import CategoryCarousel from "@components/homepage/CategoryCarousel";
 import CategoryList from "@components/homepage/CategoryList";
 import ProductsSlider from "@components/homepage/ProductsSlider";
 
@@ -6,6 +7,7 @@ function Homepage() {
     <div>
       <CategoryList />
       <ProductsSlider />
+      <CategoryCarousel />
     </div>
   );
 }

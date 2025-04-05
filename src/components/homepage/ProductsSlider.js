@@ -9,7 +9,6 @@ import Image from "next/image";
 
 import { FaCaretSquareRight } from "react-icons/fa";
 import { FaCaretSquareLeft } from "react-icons/fa";
-import { color } from "framer-motion";
 
 export default function ProductsSlider() {
   const progressCircle = useRef(null);
@@ -36,7 +35,7 @@ export default function ProductsSlider() {
         }}
         modules={[Autoplay, Pagination, Navigation]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className="mySwiper w-full h-[24vh] md:h-[40vh]  mt-3  "
+        className="mySwiper w-full h-[21vh] md:h-[40vh]  mt-3  "
       >
         <SwiperSlide className="h-[300px]">
           <Image src="/img/ProductsSlider/1.webp" fill alt="ProductSlider" />

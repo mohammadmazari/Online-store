@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { RiMenu3Fill } from "react-icons/ri";
 import { CiHome } from "react-icons/ci";
@@ -11,6 +11,8 @@ import { PiDressLight } from "react-icons/pi";
 import {
   Sheet,
   SheetContent,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
 } from "@modules/components/ui/sheet";
 import Brand from "@modules/components/ui/brand";
@@ -29,9 +31,12 @@ export function MobileMenu() {
         <RiMenu3Fill size={20} />
       </SheetTrigger>
       <SheetContent>
-        <div className="flex justify-end ">
-          <Brand />
-        </div>
+        <SheetHeader>
+          <SheetTitle>
+            <Brand />
+          </SheetTitle>
+        </SheetHeader>
+
         <div>
           <ul className="text-gray-700 text-sm [&_li]:p-3 [&_li]:py-4 [&_li_a]:flex [&_li_a]:justify-between [&_li_span]:flex [&_li_span]:items-center [&_li_span]:gap-2 ">
             <li>
