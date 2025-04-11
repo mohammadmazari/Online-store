@@ -21,7 +21,7 @@ function CategoryCarousel() {
           900: { slidesPerView: 4 },
           1100: { slidesPerView: 5 },
         }}
-        className="h-[180px] sm:h-[165px]  md:h-[190px] lg:h-[220px] mt-2 "
+        className="h-[180px] sm:h-[165px]  md:h-[190px] lg:h-[220px] mt-1 "
         dir="ltr"
         loop={true}
       >
@@ -29,7 +29,7 @@ function CategoryCarousel() {
           Carousel.map((item) => (
             <SwiperSlide
               key={item.id}
-              className="border-blue-300 border-1 shadow-2xl rounded-2xl   "
+              className="border-blue-300 border-1 shadow-md rounded-2xl   "
             >
               <Link
                 href="#"

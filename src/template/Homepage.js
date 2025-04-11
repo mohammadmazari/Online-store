@@ -1,5 +1,6 @@
 import CategoryCarousel from "@components/homepage/CategoryCarousel";
 import CategoryList from "@components/homepage/CategoryList";
+import FestivalSection from "@components/homepage/FestivalSection";
 import ProductsSlider from "@components/homepage/ProductsSlider";
 
 function Homepage() {
@@ -8,6 +9,7 @@ function Homepage() {
       <CategoryList />
       <ProductsSlider />
       <CategoryCarousel />
+      <FestivalSection />
     </div>
   );
 }

@@ -1,0 +1,75 @@
+[
+  {
+    category: "کالای خانگی",
+    products: [
+      {
+        id: 1,
+        name: "جاروبرقی پارس‌خزر",
+        description: "جاروبرقی با قدرت مکش بالا و فیلتر HEPA",
+        price: 2500000,
+        brand: "پارس‌خزر",
+        stock: 10,
+        image: "/images/products/vacuum.jpg",
+      },
+      {
+        id: 2,
+        name: "ماشین لباسشویی دوو 7 کیلویی",
+        description: "دارای 14 برنامه شست‌وشو، موتور دایرکت درایو",
+        price: 9800000,
+        brand: "Daewoo",
+        stock: 6,
+        image: "/images/products/washing-machine.jpg",
+      },
+    ],
+  },
+  {
+    category: "لباس",
+    products: [
+      {
+        id: 3,
+        name: "تی‌شرت مردانه نخی",
+        description: "تی‌شرت راحت و سبک مناسب تابستان",
+        price: 180000,
+        brand: "SimpleWear",
+        stock: 25,
+        size: ["S", "M", "L", "XL"],
+        color: ["سفید", "مشکی", "آبی"],
+        image: "/images/products/tshirt.jpg",
+      },
+      {
+        id: 4,
+        name: "شلوار جین زنانه",
+        description: "شلوار جین با کشسانی بالا و برش جذب",
+        price: 320000,
+        brand: "DenimStyle",
+        stock: 15,
+        size: ["36", "38", "40", "42"],
+        color: ["آبی روشن", "آبی تیره"],
+        image: "/images/products/jeans.jpg",
+      },
+    ],
+  },
+  {
+    category: "لوازم آشپزخانه",
+    products: [
+      {
+        id: 5,
+        name: "قابلمه سرامیکی 5 پارچه",
+        description: "ست قابلمه ضد خش با درب شیشه‌ای",
+        price: 780000,
+        brand: "Zepter",
+        stock: 8,
+        image: "/images/products/cookware.jpg",
+      },
+      {
+        id: 6,
+        name: "چای‌ساز دیجیتال بوش",
+        description: "دارای تنظیم دما، قطع کن خودکار",
+        price: 1450000,
+        brand: "Bosch",
+        stock: 5,
+        image: "/images/products/teapot.jpg",
+      },
+    ],
+  },
+];
