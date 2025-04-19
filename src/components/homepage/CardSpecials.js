@@ -27,7 +27,7 @@ function CardSpecials({ data }) {
           <div className=" text-[10px] md:text-xs mt-5 flex flex-row-reverse justify-between pe-1">
             <p className="font-bold ">
               {FormatNumberInPersian(data.discountPrice)}
-              <span className="font-normal text-[7px] md:text-[10px] ms-1">
+              <span className="font-normal text-[9px] md:text-[12px] ms-1">
                 تومان
               </span>
             </p>
@@ -42,7 +42,7 @@ function CardSpecials({ data }) {
             <del className="font-normal text-[9px]  md:text-sm ">
               {FormatNumberInPersian(data.price)}
             </del>
-            <span className="font-normal text-[8px] md:text-[10px] ms-1">
+            <span className="font-normal text-[9px] md:text-[10px] ms-1">
               تومان
             </span>
           </p>

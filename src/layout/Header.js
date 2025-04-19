@@ -3,7 +3,7 @@ import TopBar from "@components/layout/header/TopBar";
 
 function Header() {
   return (
-    <div>
+    <div >
       <TopBar />
     </div>
   );

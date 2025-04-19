@@ -3,7 +3,7 @@ import MoblilePage from "./MoblilePage";
 
 function TopBar() {
   return (
-    <div className="container">
+    <div className="container ">
       <MoblilePage />
       <DesktopPage />
     </div>

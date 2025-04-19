@@ -10,7 +10,7 @@ export default function CategoryList() {
   const [hoveredSubIndex, setHoveredSubIndex] = useState(null);
 
   return (
-    <nav className="container hidden md:block p-4">
+    <nav className="container hidden md:block p-4 mt-23">
       <ul className="flex justify-start py-3 gap-7 text-md">
         {menuItems.map((item, index) => (
           <li
