@@ -6,6 +6,7 @@ import ProductsSlider from "@components/homepage/ProductsSlider";
 import ShopByCategory from "@components/homepage/ShopByCategory";
 
 function Homepage() {
+  
   return (
     <div>
       <CategoryList />
